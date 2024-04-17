@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title> Survey </title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body><h1>SURVEY</h1>
+    <form>
+<p>
+       <h3> Full name: <input type="text" id="ww">
+        <br><br>
+       Section: <input type="text" id="ss"> <br><br>
+       Lowest Subject: <input type="text" id="ff"> <br><br>
+       Highest Suject: <input type="text" id="nn"> <br><br>
+       How do you feel about your current grades right now? <input type="text" id="mm"> <br><br>
+       Have you gotten the recommended hours of sleep? (8 hours) <input type="text" id="hh"> <br><br>
+       Has submitting works on time become a hard task? <input type="text" id="kk"> <br><br>
+       Rate your stress level from one to ten <input type="number" id="gg"> <br><br>
+       What has helped you study so far? <input type="text" id="ll"> <br><br>
+       If you were given a chance, would you prefer a different school? <input type="text" id="jj"> <br><br>
+        <button onclick="sun()">Submit</button></h3></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Prepared by Ace Jana T. Abalos</h2>
+    </form>
+    <script>
+        function sun()
+        { 
+            var ful=document.getElementById("ww").value;
+            var v=document.getElementById("ss").value;
+            var d=document.getElementById("ff").value;
+            var f=document.getElementById("nn").value;
+            var e=document.getElementById("mm").value;
+            var s=document.getElementById("hh").value;
+            var va=document.getElementById("kk").value;
+            var cs=document.getElementById("gg").value;
+            var aa=document.getElementById("ll").value;
+            var dd=document.getElementById("jj").value;
+                    
+
+            var nahme=localStorage.setItem("ww",fname);
+            var sec=localStorage.setItem("ss", sc);
+            var subjek=localStorage.setItem("ff", an);
+            var subjhect=localStorage.setItem("nn", sb);
+            var fsubject=localStorage.setItem("mm", subz);
+            var fullname=localStorage.setItem("hh", tulog);
+            var fsubject=localStorage.setItem("kk", aask);
+            var fsubect=localStorage.setItem("gg", sstress);
+            var fsubt=localStorage.setItem("ll", studyy);
+            var ect=localStorage.setItem("jj", paaralan);
+        
+                }
+       </script>
+       </body>
+       </html>
